@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #343148;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10021,7 +10021,7 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 50rem;
 }
 
 @media (min-width: 992px) {
@@ -10051,7 +10051,8 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(194, 175, 137, 0.9);
+  /* background-color: rgba(194, 175, 137, 0.9) */
+  background-color: #343148;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -10077,7 +10078,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #c2af89;
+  color: #343148;
   opacity: 1;
 }
 
@@ -10170,7 +10171,8 @@ form .row:first-child .floating-label-form-group {
   justify-content: center;
   font-size: 2rem;
   background-color: #c2af89;
-  color: #fff;
+  /* background-color: #343148; */
+  color: #343148;
   border-radius: 100%;
 }
 
